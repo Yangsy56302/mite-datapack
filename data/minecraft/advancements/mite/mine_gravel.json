@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:mite/get_item",
+  "criteria": {
+    "gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:gravel"]}]
+      }
+    },
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:flint"]}]
+      }
+    },
+    "copper_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:copper_nugget'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.mine_gravel.title"},
+    "description": {"translate": "advancements.mite.mine_gravel.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:gravel"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["gravel", "flint", "copper_nugget"]
+  ],
+  "sends_telemetry_event": false
+}

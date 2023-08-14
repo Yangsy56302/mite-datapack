@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:moss_block",
+    "minecraft:snow_block",
+    "#minecraft:leaves"
+  ]
+}

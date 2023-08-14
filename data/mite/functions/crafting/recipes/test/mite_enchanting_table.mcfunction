@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:obsidian",Count:4b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:diamond",Count:2b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:book",Count:1b}}] run function mite:crafting/recipes/craft/mite_enchanting_table

@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:wheat_seeds",Count:9b}}] run function mite:crafting/recipes/craft/wheat_seed_ball

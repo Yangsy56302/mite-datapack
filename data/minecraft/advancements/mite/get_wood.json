@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/craft_flint_hatchet",
+  "criteria": {
+    "wood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"tag": "minecraft:logs"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_wood.title"},
+    "description": {"translate": "advancements.mite.get_wood.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["wood"]
+  ],
+  "sends_telemetry_event": false
+}

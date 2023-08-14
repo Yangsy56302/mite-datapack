@@ -1,0 +1,11 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "nbt": "{tool_level:'enderite'}"
+            }
+        }
+    ]
+}

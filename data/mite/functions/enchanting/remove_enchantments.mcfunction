@@ -1,0 +1,1 @@
+execute run data remove block ~ ~ ~ Items[{Slot:17b}].tag.Enchantments

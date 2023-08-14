@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:netherite_scrap",Count:4b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:gold_ingot",Count:4b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:diamond",Count:1b}}] run function mite:crafting/recipes/craft/netherite_ingot_from_material

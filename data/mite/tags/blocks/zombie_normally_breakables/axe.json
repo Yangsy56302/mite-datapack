@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#mite:zombie_normally_breakables/hand",
+    "#minecraft:planks"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "gui.mite.enchanting_table.info", "color": "gold"}
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {"italic": false, "translate": "gui.mite.enchanting_table.info_1", "color": "gray"},
+                {"italic": false, "translate": "gui.mite.enchanting_table.info_2", "color": "gray"},
+                {"italic": false, "translate": "gui.mite.enchanting_table.info_3", "color": "gray"}
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{item_type:'gui',CustomModelData:16520032,HideFlags:255}"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

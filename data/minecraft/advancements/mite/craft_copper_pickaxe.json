@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/get_copper_ingot",
+  "criteria": {
+    "copper_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:copper_pickaxe'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {"translate": "advancements.mite.craft_copper_pickaxe.title"},
+    "description": {"translate": "advancements.mite.craft_copper_pickaxe.description"},
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{CustomModelData:16520001}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["copper_pickaxe"]
+  ],
+  "sends_telemetry_event": false
+}

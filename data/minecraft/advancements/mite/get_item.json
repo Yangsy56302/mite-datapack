@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/root",
+  "criteria": {
+    "get_item": {
+      "trigger": "minecraft:inventory_changed",
+      "slots": {
+        "occupied": {"min": 1, "max": 256}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_item.title"},
+    "description": {"translate": "advancements.mite.get_item.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["get_item"]
+  ],
+  "sends_telemetry_event": false
+}

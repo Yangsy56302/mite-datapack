@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_item",
+  "criteria": {
+    "stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:stick"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_stick.title"},
+    "description": {"translate": "advancements.mite.get_stick.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:stick"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["stick"]
+  ],
+  "sends_telemetry_event": false
+}

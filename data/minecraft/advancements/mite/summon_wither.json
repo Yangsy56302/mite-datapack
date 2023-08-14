@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_wither_skeleton_skull",
+  "criteria": {
+    "wither": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {"type": "minecraft:wither"}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.summon_wither.title"},
+    "description": {"translate": "advancements.mite.summon_wither.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["wither"]
+  ],
+  "sends_telemetry_event": false
+}

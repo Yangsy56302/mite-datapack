@@ -1,0 +1,6 @@
+{
+    "condition": "match_tool",
+    "predicate": {
+        "nbt": "{tool_type:'pickaxe'}"
+    }
+}

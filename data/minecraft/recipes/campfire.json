@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["STS",
+              "TCT",
+              "STS"],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    }
+  },
+  "result": {
+    "item": "minecraft:campfire",
+    "count": 1
+  }
+}

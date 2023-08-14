@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "any_tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/dirt.png",
+    "title": {"translate": "advancements.mite.root.title"},
+    "description": {"translate": "advancements.mite.root.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "show_toast": false
+  },
+  "requirements": [
+    ["any_tick"]
+  ],
+  "sends_telemetry_event": false
+}

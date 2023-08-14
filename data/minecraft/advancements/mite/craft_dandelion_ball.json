@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/craft_wheat_seed_ball",
+  "criteria": {
+    "dandelion_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:dandelion_ball'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_dandelion_ball.title"},
+    "description": {"translate": "advancements.mite.craft_dandelion_ball.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:beetroot",
+      "nbt": "{CustomModelData:16520001}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["dandelion_ball"]
+  ],
+  "sends_telemetry_event": false
+}

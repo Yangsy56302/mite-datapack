@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_flint",
+  "criteria": {
+    "mite_crafting_table": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "mite:mite_crafting_table"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {"translate": "advancements.mite.craft_mite_crafting_table.title"},
+    "description": {"translate": "advancements.mite.craft_mite_crafting_table.description"},
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:lodestone"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["mite_crafting_table"]
+  ],
+  "sends_telemetry_event": false
+}

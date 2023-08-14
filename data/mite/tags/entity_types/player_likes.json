@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#mite:overworld_player_likes",
+    "#mite:nether_player_likes"
+  ]
+}

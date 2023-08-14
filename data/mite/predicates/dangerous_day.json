@@ -1,0 +1,20 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "time_check",
+            "value": {
+                "min": 200,
+                "max": 12999
+            },
+            "period": 192000
+        },
+        {
+            "condition": "inverted",
+            "term":{
+                "condition": "reference",
+                "name": "mite:first_day"
+            }
+        }
+    ]
+}

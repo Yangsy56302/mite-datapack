@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ minecraft:lodestone align xyz unless entity @e[tag=crafting_table,distance=..0.0625] run function mite:crafting/set_block
+execute if entity @s[distance=..16] positioned ^ ^ ^0.0625 run function mite:crafting/get_block

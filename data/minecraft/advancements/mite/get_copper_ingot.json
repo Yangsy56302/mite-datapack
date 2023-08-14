@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_copper_nugget",
+  "criteria": {
+    "copper_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:copper_ingot"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_copper_ingot.title"},
+    "description": {"translate": "advancements.mite.get_copper_ingot.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:copper_ingot"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["copper_ingot"]
+  ],
+  "sends_telemetry_event": false
+}

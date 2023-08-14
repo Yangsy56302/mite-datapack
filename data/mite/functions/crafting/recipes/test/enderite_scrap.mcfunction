@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:ender_pearl",Count:4b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:ender_eye",Count:4b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:shulker_shell",Count:1b}}] run function mite:crafting/recipes/craft/enderite_scrap

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/craft_dandelion_ball",
+  "criteria": {
+    "chocolate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:chocolate'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_chocolate.title"},
+    "description": {"translate": "advancements.mite.craft_chocolate.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cookie",
+      "nbt": "{CustomModelData:16520000}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["chocolate"]
+  ],
+  "sends_telemetry_event": false
+}

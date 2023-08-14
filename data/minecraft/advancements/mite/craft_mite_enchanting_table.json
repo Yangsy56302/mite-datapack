@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_diamond",
+  "criteria": {
+    "mite_enchanting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:enchanting_table"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_mite_enchanting_table.title"},
+    "description": {"translate": "advancements.mite.craft_mite_enchanting_table.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:enchanting_table"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["mite_enchanting_table"]
+  ],
+  "sends_telemetry_event": false
+}

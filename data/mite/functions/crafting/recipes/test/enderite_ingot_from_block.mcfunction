@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:reinforced_deepslate",Count:1b}}] run function mite:crafting/recipes/craft/enderite_ingot_from_block

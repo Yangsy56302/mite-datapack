@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:mite/get_blaze_rod",
+  "criteria": {
+    "use_ender_eye": {
+      "trigger": "minecraft:used_ender_eye",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.use_ender_eye.title"},
+    "description": {"translate": "advancements.mite.use_ender_eye.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ender_eye"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["use_ender_eye"]
+  ],
+  "sends_telemetry_event": false
+}

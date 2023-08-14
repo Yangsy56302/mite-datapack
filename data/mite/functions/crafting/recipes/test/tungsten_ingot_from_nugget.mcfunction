@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{tag:{id:"mite:tungsten_nugget"},Count:9b}}] run function mite:crafting/recipes/craft/tungsten_ingot_from_nugget

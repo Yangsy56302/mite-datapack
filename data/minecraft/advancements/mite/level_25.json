@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/level_5",
+  "criteria": {
+    "level_25": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {"type_specific": {"type": "player", "level": {"min": 25}}}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.level_25.title"},
+    "description": {"translate": "advancements.mite.level_25.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["level_25"]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/craft_flint_spade",
+  "criteria": {
+    "copper_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:copper_nugget'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_copper_nugget.title"},
+    "description": {"translate": "advancements.mite.get_copper_nugget.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:firework_star",
+      "nbt": "{CustomModelData:16521011}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["copper_nugget"]
+  ],
+  "sends_telemetry_event": false
+}

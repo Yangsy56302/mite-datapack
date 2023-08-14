@@ -1,0 +1,23 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["_D",
+              "#/"],
+  "key": {
+    "D": {
+      "item": "minecraft:flint"
+    },
+    "_": {
+      "item": "minecraft:feather"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "result": {
+    "item": "minecraft:lodestone",
+    "count": 1
+  }
+}

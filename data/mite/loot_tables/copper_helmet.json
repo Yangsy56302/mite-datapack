@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.copper_helmet"}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-HELMET-DEFENCE",
+                  "attribute": "minecraft:generic.armor",
+                  "operation": "addition",
+                  "amount": 2,
+                  "id": "00000003-0001-0001-0001-0000000000ad",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:copper_helmet',Trim:{material:'amethyst',pattern:'wayfinder'},armor_level:'copper',HideFlags:128,CustomModelData:16520001}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.11
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

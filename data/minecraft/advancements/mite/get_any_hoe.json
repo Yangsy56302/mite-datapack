@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/get_copper_ingot",
+  "criteria": {
+    "hoe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:diamond_hoe"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_any_hoe.title"},
+    "description": {"translate": "advancements.mite.craft_any_hoe.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_hoe",
+      "nbt": "{CustomModelData:16520001}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["hoe"]
+  ],
+  "sends_telemetry_event": false
+}

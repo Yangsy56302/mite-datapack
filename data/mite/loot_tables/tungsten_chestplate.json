@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.tungsten_chestplate"}
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {"minecraft:blast_protection": 2}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-CHESTPLATE-DEFENCE",
+                  "attribute": "minecraft:generic.armor",
+                  "operation": "addition",
+                  "amount": 6,
+                  "id": "00000004-0001-0001-0001-0000000000ad",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:tungsten_chestplate',Trim:{material:'amethyst',pattern:'sentry'},armor_level:'tungsten',HideFlags:128,CustomModelData:16520004}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.242
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "enchantment.minecraft.protection", "color": "yellow"}
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{item_type:'gui',CustomModelData:16520007,HideFlags:255}"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

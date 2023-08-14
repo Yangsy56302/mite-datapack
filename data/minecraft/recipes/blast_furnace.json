@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["ICI",
+              "CFC",
+              "ICI"],
+  "key": {
+    "F": {
+      "item": "minecraft:furnace"
+    },
+    "C": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:blast_furnace",
+    "count": 1
+  }
+}

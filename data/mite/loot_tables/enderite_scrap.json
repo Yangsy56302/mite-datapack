@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.enderite_scrap"}
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:enderite_scrap',CustomModelData:16521072}"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

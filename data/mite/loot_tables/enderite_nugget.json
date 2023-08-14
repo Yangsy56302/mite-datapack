@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.enderite_nugget"}
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:enderite_nugget',CustomModelData:16521071}"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

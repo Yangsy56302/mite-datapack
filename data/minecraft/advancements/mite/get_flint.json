@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:mite/mine_gravel",
+  "criteria": {
+    "flint": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:flint"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_flint.title"},
+    "description": {"translate": "advancements.mite.get_flint.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:flint"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["flint"]
+  ],
+  "rewards": {
+    "recipes": ["mite:mite_crafting_table"]
+  },
+  "sends_telemetry_event": false
+}

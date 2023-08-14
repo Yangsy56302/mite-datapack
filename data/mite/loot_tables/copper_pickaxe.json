@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.copper_pickaxe"}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-ATTACK-DAMAGE",
+                  "attribute": "minecraft:generic.attack_damage",
+                  "operation": "addition",
+                  "amount": 5,
+                  "id": "00000001-0001-0001-0001-0000000000ad",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:copper_pickaxe',tool_type:'pickaxe',tool_level:'copper',CustomModelData:16520001}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.0409984
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

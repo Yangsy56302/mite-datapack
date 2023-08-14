@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{tag:{id:"mite:silver_ingot"},Count:8b}}] run function mite:crafting/recipes/craft/silver_chestplate

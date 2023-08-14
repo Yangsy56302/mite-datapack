@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.tungsten_leggings"}
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {"minecraft:projectile_protection": 2}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-LEGGINGS-DEFENCE",
+                  "attribute": "minecraft:generic.armor",
+                  "operation": "addition",
+                  "amount": 5,
+                  "id": "00000005-0001-0001-0001-0000000000ad",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:tungsten_leggings',Trim:{material:'amethyst',pattern:'sentry'},armor_level:'tungsten',HideFlags:128,CustomModelData:16520004}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.226
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

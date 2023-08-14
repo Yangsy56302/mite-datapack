@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.silver_shovel"}
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {"minecraft:smite": 2}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-ATTACK-DAMAGE",
+                  "attribute": "minecraft:generic.attack_damage",
+                  "operation": "addition",
+                  "amount": 3,
+                  "id": "00000001-0001-0001-0001-0000000000ad",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:silver_shovel',tool_type:'shovel',tool_level:'silver',CustomModelData:16520002}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.0409984
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

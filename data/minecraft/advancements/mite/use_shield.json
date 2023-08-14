@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_iron_ingot",
+  "criteria": {
+    "use_shield": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {"blocked": true}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.use_shield.title"},
+    "description": {"translate": "advancements.mite.use_shield.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:shield"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["use_shield"]
+  ],
+  "sends_telemetry_event": false
+}

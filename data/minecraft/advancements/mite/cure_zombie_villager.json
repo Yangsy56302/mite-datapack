@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:mite/get_golden_apple",
+  "criteria": {
+    "villager": {
+      "trigger": "minecraft:cured_zombie_villager",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.cure_zombie_villager.title"},
+    "description": {"translate": "advancements.mite.cure_zombie_villager.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:villager_spawn_egg"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["villager"]
+  ],
+  "sends_telemetry_event": false
+}

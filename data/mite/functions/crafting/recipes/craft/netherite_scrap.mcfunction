@@ -1,0 +1,2 @@
+execute run kill @e[type=minecraft:item,limit=1,sort=nearest,nbt={Item:{id:"minecraft:ancient_debris",Count:1b}}]
+execute run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:netherite_scrap",Count:1b}}

@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:ancient_debris",Count:1b}}] run function mite:crafting/recipes/craft/netherite_scrap

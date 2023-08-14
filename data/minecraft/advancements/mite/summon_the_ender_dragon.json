@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/kill_the_ender_dragon",
+  "criteria": {
+    "ender_dragon": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {"type": "minecraft:ender_dragon"}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.summon_the_ender_dragon.title"},
+    "description": {"translate": "advancements.mite.summon_the_ender_dragon.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:dragon_head"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["ender_dragon"]
+  ],
+  "sends_telemetry_event": false
+}

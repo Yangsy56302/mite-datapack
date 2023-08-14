@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/craft_mite_crafting_table",
+  "criteria": {
+    "wheat_seed_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:wheat_seed_ball'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_wheat_seed_ball.title"},
+    "description": {"translate": "advancements.mite.craft_wheat_seed_ball.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:beetroot",
+      "nbt": "{CustomModelData:16520000}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["wheat_seed_ball"]
+  ],
+  "sends_telemetry_event": false
+}

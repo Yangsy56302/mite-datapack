@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_block"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "mite:tool_level_copper"
+        },
+        {
+          "condition": "reference",
+          "name": "mite:using_pickaxe"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/gold_block"
+}

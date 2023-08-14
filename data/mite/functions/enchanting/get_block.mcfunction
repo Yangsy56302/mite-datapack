@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ minecraft:enchanting_table align xyz unless entity @e[tag=enchanting_table,distance=..0.0625] run function mite:enchanting/set_block
+execute if entity @s[distance=..16] positioned ^ ^ ^0.0625 run function mite:enchanting/get_block

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "gui.mite.smithing_table.click_to_smith", "color": "gray"}
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{item_type:'gui',CustomModelData:16520024,HideFlags:255}"
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

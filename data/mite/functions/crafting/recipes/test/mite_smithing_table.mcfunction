@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:oak_planks",Count:4b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:iron_ingot",Count:2b}}] run function mite:crafting/recipes/craft/mite_smithing_table

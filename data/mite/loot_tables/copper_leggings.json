@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.copper_leggings"}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-LEGGINGS-DEFENCE",
+                  "attribute": "minecraft:generic.armor",
+                  "operation": "addition",
+                  "amount": 4,
+                  "id": "00000005-0001-0001-0001-0000000000ad",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:copper_leggings',Trim:{material:'amethyst',pattern:'wayfinder'},armor_level:'copper',HideFlags:128,CustomModelData:16520001}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.113
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

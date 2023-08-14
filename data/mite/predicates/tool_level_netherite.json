@@ -1,0 +1,15 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "nbt": "{tool_level:'netherite'}"
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "mite:tool_level_enderite"
+        }
+    ]
+}

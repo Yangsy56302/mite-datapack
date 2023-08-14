@@ -1,0 +1,1 @@
+execute if dimension minecraft:overworld run fill ~-4 -48 ~-4 ~4 319 ~4 minecraft:air replace minecraft:nether_portal

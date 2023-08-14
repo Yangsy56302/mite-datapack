@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/craft_copper_pickaxe",
+  "criteria": {
+    "tungsten_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:tungsten_ingot'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_tungsten_ingot.title"},
+    "description": {"translate": "advancements.mite.get_tungsten_ingot.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:firework_star",
+      "nbt": "{CustomModelData:16521040}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["tungsten_ingot"]
+  ],
+  "sends_telemetry_event": false
+}

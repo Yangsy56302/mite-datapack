@@ -1,0 +1,18 @@
+{
+  "parent": "mite:test/root",
+  "criteria": {
+    "bat_hurt_player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {"source_entity": {"type": "minecraft:bat"}}
+      }
+    }
+  },
+  "requirements": [
+    ["bat_hurt_player"]
+  ],
+  "rewards": {
+    "function": "mite:entity/bat_hurt_player"
+  },
+  "sends_telemetry_event": false
+}

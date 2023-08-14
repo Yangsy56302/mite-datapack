@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:mite/wear_any_armor",
+  "criteria": {
+    "armor": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {"items": ["minecraft:diamond_helmet"]},
+            "chest": {"items": ["minecraft:diamond_chestplate"]},
+            "legs": {"items": ["minecraft:diamond_leggings"]},
+            "feet": {"items": ["minecraft:diamond_boots"]}
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.wear_all_armor.title"},
+    "description": {"translate": "advancements.mite.wear_all_armor.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_chestplate",
+      "nbt": "{CustomModelData:16520003}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["armor"]
+  ],
+  "sends_telemetry_event": false
+}

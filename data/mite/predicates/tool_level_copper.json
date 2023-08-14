@@ -1,0 +1,21 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "nbt": "{tool_level:'copper'}"
+            }
+        },
+        {
+            "condition": "match_tool",
+            "predicate": {
+                "nbt": "{tool_level:'silver'}"
+            }
+        },
+        {
+            "condition": "reference",
+            "name": "mite:tool_level_iron"
+        }
+    ]
+}

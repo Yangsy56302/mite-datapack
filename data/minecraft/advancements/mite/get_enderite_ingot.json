@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/get_enderite_scrap",
+  "criteria": {
+    "enderite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:enderite_ingot'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {"translate": "advancements.mite.get_enderite_ingot.title"},
+    "description": {"translate": "advancements.mite.get_enderite_ingot.description"},
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:firework_star",
+      "nbt": "{CustomModelData:16521070}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["enderite_ingot"]
+  ],
+  "sends_telemetry_event": false
+}

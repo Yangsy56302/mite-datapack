@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:mite/summon_wither",
+  "criteria": {
+    "beacon": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {}
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.create_beacon.title"},
+    "description": {"translate": "advancements.mite.create_beacon.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["beacon"]
+  ],
+  "sends_telemetry_event": false
+}

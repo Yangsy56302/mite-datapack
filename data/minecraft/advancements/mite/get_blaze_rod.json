@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/enter_the_nether",
+  "criteria": {
+    "blaze_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:blaze_rod"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_blaze_rod.title"},
+    "description": {"translate": "advancements.mite.get_blaze_rod.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:blaze_rod"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["blaze_rod"]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,1 @@
+execute at @e[type=minecraft:slime] if block ~ ~-0.03125 ~ #mite:dirts run setblock ~ ~-0.03125 ~ minecraft:dirt

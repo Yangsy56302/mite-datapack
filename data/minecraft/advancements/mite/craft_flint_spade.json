@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/craft_mite_crafting_table",
+  "criteria": {
+    "flint_spade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:flint_spade'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_flint_spade.title"},
+    "description": {"translate": "advancements.mite.craft_flint_spade.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_shovel",
+      "nbt": "{CustomModelData:16520000}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["flint_spade"]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/enter_end_gateway",
+  "criteria": {
+    "enderite_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:enderite_scrap'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_enderite_scrap.title"},
+    "description": {"translate": "advancements.mite.get_enderite_scrap.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:firework_star",
+      "nbt": "{CustomModelData:16521072}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["enderite_scrap"]
+  ],
+  "sends_telemetry_event": false
+}

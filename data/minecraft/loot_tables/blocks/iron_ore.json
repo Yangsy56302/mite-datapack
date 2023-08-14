@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "minecraft:silk_touch",
+              "chances": [1, 0]
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "table_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "chances": [0, 0.2, 0.4, 0.6, 0.8, 1]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "mite:tool_level_copper"
+        },
+        {
+          "condition": "reference",
+          "name": "mite:using_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:raw_tungsten",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "minecraft:silk_touch",
+              "chances": [1, 0]
+            },
+            {
+              "condition": "random_chance",
+              "chance": 0.25
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "table_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "chances": [0, 0.2, 0.4, 0.6, 0.8, 1]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "mite:tool_level_copper"
+        },
+        {
+          "condition": "reference",
+          "name": "mite:using_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ore",
+          "conditions": [
+            {
+            "condition": "table_bonus",
+            "enchantment": "minecraft:silk_touch",
+            "chances": [0, 1]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "mite:tool_level_copper"
+        },
+        {
+          "condition": "reference",
+          "name": "mite:using_pickaxe"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/iron_ore"
+}

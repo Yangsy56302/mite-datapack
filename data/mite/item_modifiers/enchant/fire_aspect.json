@@ -1,0 +1,5 @@
+{
+    "function": "set_enchantments",
+    "add": true,
+    "enchantments": {"minecraft:fire_aspect": 1}
+}

@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/enter_the_nether",
+  "criteria": {
+    "wither_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:wither_skeleton_skull"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_wither_skeleton_skull.title"},
+    "description": {"translate": "advancements.mite.get_wither_skeleton_skull.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["wither_skeleton_skull"]
+  ],
+  "sends_telemetry_event": false
+}

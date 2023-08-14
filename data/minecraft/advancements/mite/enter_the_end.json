@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/use_ender_eye",
+  "criteria": {
+    "the_end": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {"location": {"dimension": "minecraft:the_end"}}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {"translate": "advancements.mite.enter_the_end.title"},
+    "description": {"translate": "advancements.mite.enter_the_end.description"},
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["the_end"]
+  ],
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:cracked_nether_bricks",Count:1b}}] run function mite:crafting/recipes/craft/silver_ingot_from_block

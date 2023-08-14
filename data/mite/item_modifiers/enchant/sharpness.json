@@ -1,0 +1,5 @@
+{
+    "function": "set_enchantments",
+    "add": true,
+    "enchantments": {"minecraft:sharpness": 1}
+}

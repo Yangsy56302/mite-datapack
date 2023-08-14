@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:shield',CustomModelData:16520001}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.7619
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

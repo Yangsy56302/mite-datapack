@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.flint_spade"}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-ATTACK-DAMAGE",
+                  "attribute": "minecraft:generic.attack_damage",
+                  "operation": "addition",
+                  "amount": 2,
+                  "id": "00000001-0001-0001-0001-0000000000ad",
+                  "slot": "mainhand"
+                },
+                {
+                  "name": "MITE-ATTACK-DAMAGE-2",
+                  "attribute": "minecraft:generic.attack_damage",
+                  "operation": "addition",
+                  "amount": 2,
+                  "id": "00000002-0001-0001-0001-0000000000ad",
+                  "slot": "offhand"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:flint_spade',tool_type:'shovel',tool_level:'flint',CustomModelData:16520000}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.0102496
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

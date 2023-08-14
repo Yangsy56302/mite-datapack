@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:cocoa_beans",Count:1b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:sugar",Count:1b}}] run function mite:crafting/recipes/craft/chocolate

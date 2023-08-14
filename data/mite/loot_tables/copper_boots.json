@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.copper_boots"}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-LEGGINGS-DEFENCE",
+                  "attribute": "minecraft:generic.armor",
+                  "operation": "addition",
+                  "amount": 1,
+                  "id": "00000006-0001-0001-0001-0000000000ad",
+                  "slot": "feet"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:copper_boots',Trim:{material:'amethyst',pattern:'wayfinder'},armor_level:'copper',HideFlags:128,CustomModelData:16520001}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.074
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

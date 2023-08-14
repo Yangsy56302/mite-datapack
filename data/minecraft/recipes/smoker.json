@@ -1,0 +1,18 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["CDC",
+              "D D",
+              "CDC"],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "C": {
+      "item": "minecraft:clay"
+    }
+  },
+  "result": {
+    "item": "minecraft:smoker",
+    "count": 1
+  }
+}

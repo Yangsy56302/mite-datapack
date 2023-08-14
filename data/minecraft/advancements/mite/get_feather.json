@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_item",
+  "criteria": {
+    "feather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:feather"]}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.get_feather.title"},
+    "description": {"translate": "advancements.mite.get_feather.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:feather"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["feather"]
+  ],
+  "sends_telemetry_event": false
+}

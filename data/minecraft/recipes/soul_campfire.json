@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["STS",
+              "T#T",
+              "STS"],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "T": {
+      "item": "minecraft:soul_torch"
+    },
+    "#": {
+      "tag": "minecraft:soul_fire_base_blocks"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_campfire",
+    "count": 1
+  }
+}

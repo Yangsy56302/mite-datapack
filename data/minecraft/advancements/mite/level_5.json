@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/root",
+  "criteria": {
+    "level_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {"type_specific": {"type": "player", "level": {"min": 5}}}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.level_5.title"},
+    "description": {"translate": "advancements.mite.level_5.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:experience_bottle"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["level_5"]
+  ],
+  "sends_telemetry_event": false
+}

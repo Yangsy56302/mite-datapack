@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:raw_gold",Count:8b}}] if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:coal",Count:1b}}] run function mite:crafting/recipes/craft/gold_ingot_from_raw

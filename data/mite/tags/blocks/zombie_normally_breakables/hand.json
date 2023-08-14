@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "#mite:dirts",
+    "#mite:concrete_powders",
+    "minecraft:coarse_dirt",
+    "minecraft:dirt_path",
+    "minecraft:farmland",
+    "minecraft:mud",
+    "minecraft:clay",
+    "minecraft:gravel",
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:hay_block"
+  ]
+}

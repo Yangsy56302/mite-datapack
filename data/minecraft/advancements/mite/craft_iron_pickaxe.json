@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/get_iron_ingot",
+  "criteria": {
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"nbt": "{id:'mite:iron_pickaxe'}"}]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.craft_iron_pickaxe.title"},
+    "description": {"translate": "advancements.mite.craft_iron_pickaxe.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{CustomModelData:16520003}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["iron_pickaxe"]
+  ],
+  "sends_telemetry_event": false
+}

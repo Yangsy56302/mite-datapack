@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:mite/get_silver_ingot",
+  "criteria": {
+    "deal_16_damage": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {"taken": {"min": 16}}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.deal_16_damage.title"},
+    "description": {"translate": "advancements.mite.deal_16_damage.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{CustomModelData:16520002}"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["deal_16_damage"]
+  ],
+  "sends_telemetry_event": false
+}

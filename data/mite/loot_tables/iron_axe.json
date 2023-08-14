@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.minecraft.iron_axe"}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-ATTACK-DAMAGE",
+                  "attribute": "minecraft:generic.attack_damage",
+                  "operation": "addition",
+                  "amount": 8,
+                  "id": "00000001-0001-0001-0001-0000000000ad",
+                  "slot": "mainhand"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:iron_axe',tool_type:'axe',tool_level:'iron',CustomModelData:16520003}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.0819987
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

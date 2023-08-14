@@ -1,0 +1,5 @@
+execute run data modify entity @s Offers.Recipes set value []
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:paper",Count:32b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:book",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:bookshelf",Count:4b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:enchanted_book",Count:1b},sell:{id:"minecraft:experience_bottle",Count:4b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}

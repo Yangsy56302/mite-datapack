@@ -1,0 +1,126 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "conditions": [
+            {
+              "condition": "table_bonus",
+              "enchantment": "minecraft:silk_touch",
+              "chances": [1, 0]
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 4,
+              "conditions": [
+                {
+                "condition": "table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [1, 0, 0, 0, 0, 0]
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 6,
+              "conditions": [
+                {
+                "condition": "table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [0, 1, 0, 0, 0, 0]
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 8,
+              "conditions": [
+                {
+                "condition": "table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [0, 0, 1, 0, 0, 0]
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 10,
+              "conditions": [
+                {
+                "condition": "table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [0, 0, 0, 1, 0, 0]
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 12,
+              "conditions": [
+                {
+                "condition": "table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [0, 0, 0, 0, 1, 0]
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "count": 16,
+              "conditions": [
+                {
+                "condition": "table_bonus",
+                "enchantment": "minecraft:fortune",
+                "chances": [0, 0, 0, 0, 0, 1]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "mite:tool_level_copper"
+        },
+        {
+          "condition": "reference",
+          "name": "mite:using_pickaxe"
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_ore",
+          "conditions": [
+            {
+            "condition": "table_bonus",
+            "enchantment": "minecraft:silk_touch",
+            "chances": [0, 1]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "reference",
+          "name": "mite:tool_level_copper"
+        },
+        {
+          "condition": "reference",
+          "name": "mite:using_pickaxe"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:blocks/lapis_ore"
+}

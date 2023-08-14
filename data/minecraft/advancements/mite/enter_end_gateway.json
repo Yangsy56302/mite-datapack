@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/kill_the_ender_dragon",
+  "criteria": {
+    "enter_end_gateway": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "minecraft:end_gateway"
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "title": {"translate": "advancements.mite.enter_end_gateway.title"},
+    "description": {"translate": "advancements.mite.enter_end_gateway.description"},
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:ender_pearl"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["enter_end_gateway"]
+  ],
+  "sends_telemetry_event": false
+}

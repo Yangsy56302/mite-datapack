@@ -1,0 +1,21 @@
+{
+  "type": "crafting_shaped",
+  "pattern": ["NIN",
+              "IAI",
+              "NIN"],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "N": {
+      "item": "minecraft:gold_nugget"
+    },
+    "I": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 1
+  }
+}

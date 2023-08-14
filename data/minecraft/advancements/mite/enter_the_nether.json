@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:mite/get_obsidian",
+  "criteria": {
+    "the_nether": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {"location": {"dimension": "minecraft:the_nether"}}
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "title": {"translate": "advancements.mite.enter_the_nether.title"},
+    "description": {"translate": "advancements.mite.enter_the_nether.description"},
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "show_toast": true
+  },
+  "requirements": [
+    ["the_nether"]
+  ],
+  "sends_telemetry_event": false
+}

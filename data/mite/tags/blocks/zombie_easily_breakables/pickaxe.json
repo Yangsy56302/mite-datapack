@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "#mite:zombie_easily_breakables/hand",
+    "#minecraft:walls",
+    "#minecraft:stone_buttons",
+    "#minecraft:stone_pressure_plates",
+    "#minecraft:terracotta",
+    "#mite:glazed_terracottas",
+    "#mite:concretes",
+    "#minecraft:coral_blocks",
+    "#mite:dead_coral_blocks",
+    "#mite:stone_stairs",
+    "#mite:stone_slabs",
+    "#mite:sandstones",
+    "minecraft:nether_brick_fence",
+    "minecraft:tuff",
+    "minecraft:netherrack"
+  ]
+}

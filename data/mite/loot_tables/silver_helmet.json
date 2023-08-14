@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {"italic": false, "translate": "item.mite.silver_helmet"}
+            },
+            {
+              "function": "set_enchantments",
+              "enchantments": {"minecraft:thorns": 1}
+            },
+            {
+              "function": "set_attributes",
+              "modifiers": [
+                {
+                  "name": "MITE-HELMET-DEFENCE",
+                  "attribute": "minecraft:generic.armor",
+                  "operation": "addition",
+                  "amount": 2,
+                  "id": "00000003-0001-0001-0001-0000000000ad",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'mite:silver_helmet',Trim:{material:'amethyst',pattern:'vex'},armor_level:'silver',HideFlags:128,CustomModelData:16520002}"
+            },
+            {
+              "function": "set_damage",
+              "damage": 0.11
+            }
+          ],
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

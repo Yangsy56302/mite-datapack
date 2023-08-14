@@ -1,0 +1,1 @@
+execute if entity @e[type=minecraft:item,distance=..1,nbt={Item:{id:"minecraft:dandelion",Count:4b}}] run function mite:crafting/recipes/craft/dandelion_ball

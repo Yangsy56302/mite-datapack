@@ -1,0 +1,13 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "reference",
+            "name": "mite:1in32"
+        },
+        {
+            "condition": "reference",
+            "name": "mite:1in2"
+        }
+    ]
+}
