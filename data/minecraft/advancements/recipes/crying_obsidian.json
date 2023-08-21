@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:obsidian"]}]
+      }
+    },
+    "potion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:potion"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["obsidian", "potion"]
+  ],
+  "rewards": {
+    "recipes": ["mite:crying_obsidian"]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,6 +1,5 @@
-execute run data modify entity @s Offers.Recipes set value []
-execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:bread",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
-execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:baked_potato",Count:24b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
-execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:golden_carrot",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
-execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:pumpkin_pie",Count:12b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
-execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:glistering_melon_slice",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:8,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run function mite:entity/trade_type/villager
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:wheat",Count:12b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:potato",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:carrot",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:experience_bottle",Count:1b},sell:{id:"minecraft:apple",Count:4b},uses:0,maxUses:4,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}

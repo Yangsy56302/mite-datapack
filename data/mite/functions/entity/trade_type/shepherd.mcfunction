@@ -1,0 +1,9 @@
+execute run function mite:entity/trade_type/villager
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:white_wool",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:leather",Count:12b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:egg",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:feather",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:honey_bottle",Count:4b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:honeycomb",Count:4b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:ink_sac",Count:16b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}
+execute run data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:glow_ink_sac",Count:12b},sell:{id:"minecraft:experience_bottle",Count:1b},uses:0,maxUses:16,priceMultiplier:0.1f,demand:0,specialPrice:0,rewardExp:false,xp:0}

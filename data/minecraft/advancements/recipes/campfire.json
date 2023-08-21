@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "coal": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"tag": "minecraft:coals"}]
+      }
+    },
+    "torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:torch"]}]
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:stick"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["coal", "torch", "stick"]
+  ],
+  "rewards": {
+    "recipes": ["minecraft:campfire"]
+  },
+  "sends_telemetry_event": false
+}

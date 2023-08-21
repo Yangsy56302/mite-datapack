@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:lava_bucket"]}]
+      }
+    },
+    "water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:water_bucket"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["lava_bucket", "water_bucket"]
+  ],
+  "rewards": {
+    "recipes": ["mite:obsidian"]
+  },
+  "sends_telemetry_event": false
+}

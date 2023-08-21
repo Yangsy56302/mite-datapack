@@ -36,4 +36,4 @@ execute as @a run function mite:durability/low_durability
 execute run function mite:misc/prevent_cheating
 execute run function mite:misc/gamerule
 execute at @a run function mite:misc/break_portal
-execute run function mite:misc/clear_item
+execute run function mite:misc/clear

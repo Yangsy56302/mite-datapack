@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:iron_ingot"]}]
+      }
+    },
+    "cobbled_deepslate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:cobbled_deepslate"]}]
+      }
+    },
+    "furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:furnace"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["iron_ingot", "cobbled_deepslate", "furnace"]
+  ],
+  "rewards": {
+    "recipes": ["minecraft:blast_furnace"]
+  },
+  "sends_telemetry_event": false
+}

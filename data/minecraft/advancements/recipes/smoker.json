@@ -1,0 +1,24 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:clay"]}]
+      }
+    },
+    "dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:dirt"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["clay", "dirt"]
+  ],
+  "rewards": {
+    "recipes": ["minecraft:smoker"]
+  },
+  "sends_telemetry_event": false
+}

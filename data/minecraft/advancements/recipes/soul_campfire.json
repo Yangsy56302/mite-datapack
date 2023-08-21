@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "soul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"tag": "minecraft:soul_fire_base_blocks"}]
+      }
+    },
+    "torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:soul_torch"]}]
+      }
+    },
+    "stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{"items": ["minecraft:stick"]}]
+      }
+    }
+  },
+  "requirements": [
+    ["soul", "torch", "stick"]
+  ],
+  "rewards": {
+    "recipes": ["minecraft:soul_campfire"]
+  },
+  "sends_telemetry_event": false
+}

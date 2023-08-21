@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:copper_sword",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:silver_sword",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:iron_sword",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:tungsten_sword",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

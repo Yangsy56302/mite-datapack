@@ -12,7 +12,7 @@
       "conditions": [
         {
           "condition": "reference",
-          "name": "mite:using_pickaxe"
+          "name": "mite:using_axe"
         }
       ]
     }

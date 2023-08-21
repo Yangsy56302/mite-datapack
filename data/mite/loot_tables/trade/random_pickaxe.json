@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:copper_pickaxe",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:silver_pickaxe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:iron_pickaxe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "mite:tungsten_pickaxe",
+          "weight": 1
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}
